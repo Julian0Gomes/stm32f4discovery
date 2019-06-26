@@ -30,7 +30,10 @@ src/main.o: ../src/main.c ../src/defines.h \
  C:/Users/jsgom/workspace/lcd/StdPeriph_Driver/inc/stm32f4xx_rcc.h \
  ../src/attributes.h ../src/tm_stm32f4_hd44780.h \
  C:/Users/jsgom/workspace/lcd/StdPeriph_Driver/inc/stm32f4xx_gpio.h \
- ../src/tm_stm32f4_gpio.h
+ ../src/tm_stm32f4_gpio.h \
+ C:/Users/jsgom/workspace/lcd/StdPeriph_Driver/inc/stm32f4xx_exti.h \
+ C:/Users/jsgom/workspace/lcd/StdPeriph_Driver/inc/stm32f4xx_syscfg.h \
+ ../src/irq.h C:/Users/jsgom/workspace/lcd/StdPeriph_Driver/inc/misc.h
 
 ../src/defines.h:
 
@@ -99,3 +102,11 @@ C:/Users/jsgom/workspace/lcd/StdPeriph_Driver/inc/stm32f4xx_rcc.h:
 C:/Users/jsgom/workspace/lcd/StdPeriph_Driver/inc/stm32f4xx_gpio.h:
 
 ../src/tm_stm32f4_gpio.h:
+
+C:/Users/jsgom/workspace/lcd/StdPeriph_Driver/inc/stm32f4xx_exti.h:
+
+C:/Users/jsgom/workspace/lcd/StdPeriph_Driver/inc/stm32f4xx_syscfg.h:
+
+../src/irq.h:
+
+C:/Users/jsgom/workspace/lcd/StdPeriph_Driver/inc/misc.h:

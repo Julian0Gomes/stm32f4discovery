@@ -4,6 +4,7 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../src/irq.c \
 ../src/main.c \
 ../src/syscalls.c \
 ../src/system_stm32f4xx.c \
@@ -13,6 +14,7 @@ C_SRCS += \
 ../src/tm_stm32f4_timer_properties.c 
 
 OBJS += \
+./src/irq.o \
 ./src/main.o \
 ./src/syscalls.o \
 ./src/system_stm32f4xx.o \
@@ -22,6 +24,7 @@ OBJS += \
 ./src/tm_stm32f4_timer_properties.o 
 
 C_DEPS += \
+./src/irq.d \
 ./src/main.d \
 ./src/syscalls.d \
 ./src/system_stm32f4xx.d \

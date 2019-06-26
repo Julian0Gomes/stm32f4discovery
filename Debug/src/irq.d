@@ -1,6 +1,4 @@
-StdPeriph_Driver/src/stm32f4xx_hash_md5.o: \
- ../StdPeriph_Driver/src/stm32f4xx_hash_md5.c \
- C:/Users/jsgom/workspace/lcd/StdPeriph_Driver/inc/stm32f4xx_hash.h \
+src/irq.o: ../src/irq.c ../src/irq.h ../src/tm_stm32f4_delay.h \
  C:/Users/jsgom/workspace/lcd/CMSIS/device/stm32f4xx.h \
  C:/Users/jsgom/workspace/lcd/CMSIS/core/core_cm4.h \
  C:/Users/jsgom/workspace/lcd/CMSIS/core/core_cmInstr.h \
@@ -27,9 +25,15 @@ StdPeriph_Driver/src/stm32f4xx_hash_md5.o: \
  C:/Users/jsgom/workspace/lcd/StdPeriph_Driver/inc/stm32f4xx_usart.h \
  C:/Users/jsgom/workspace/lcd/StdPeriph_Driver/inc/stm32f4xx_wwdg.h \
  C:/Users/jsgom/workspace/lcd/StdPeriph_Driver/inc/misc.h \
- C:/Users/jsgom/workspace/lcd/StdPeriph_Driver/inc/stm32f4xx_flash_ramfunc.h
+ C:/Users/jsgom/workspace/lcd/StdPeriph_Driver/inc/stm32f4xx_flash_ramfunc.h \
+ C:/Users/jsgom/workspace/lcd/StdPeriph_Driver/inc/stm32f4xx_rcc.h \
+ ../src/defines.h ../src/attributes.h ../src/tm_stm32f4_hd44780.h \
+ C:/Users/jsgom/workspace/lcd/StdPeriph_Driver/inc/stm32f4xx_gpio.h \
+ ../src/tm_stm32f4_gpio.h
 
-C:/Users/jsgom/workspace/lcd/StdPeriph_Driver/inc/stm32f4xx_hash.h:
+../src/irq.h:
+
+../src/tm_stm32f4_delay.h:
 
 C:/Users/jsgom/workspace/lcd/CMSIS/device/stm32f4xx.h:
 
@@ -84,3 +88,15 @@ C:/Users/jsgom/workspace/lcd/StdPeriph_Driver/inc/stm32f4xx_wwdg.h:
 C:/Users/jsgom/workspace/lcd/StdPeriph_Driver/inc/misc.h:
 
 C:/Users/jsgom/workspace/lcd/StdPeriph_Driver/inc/stm32f4xx_flash_ramfunc.h:
+
+C:/Users/jsgom/workspace/lcd/StdPeriph_Driver/inc/stm32f4xx_rcc.h:
+
+../src/defines.h:
+
+../src/attributes.h:
+
+../src/tm_stm32f4_hd44780.h:
+
+C:/Users/jsgom/workspace/lcd/StdPeriph_Driver/inc/stm32f4xx_gpio.h:
+
+../src/tm_stm32f4_gpio.h:
